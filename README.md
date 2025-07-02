@@ -11,20 +11,32 @@ API estructurada bajo /api/autores y /api/libros.
 Uso de ResponseEntity para respuestas HTTP.
 
 📦 Endpoints
+
 🔹 Autores (/api/autores)
-Método	Endpoint	Descripción
+
+
 GET	/todos	Listar todos los autores.
+
 GET	/{id}	Obtener autor por ID.
+
 POST	/	Insertar un nuevo autor.
+
 PUT	/{id}	Actualizar autor por ID.
+
 DELETE	/{id}	Eliminar autor por ID.
 
+
 🔹 Libros (/api/libros)
-Método	Endpoint	Descripción
+
+
 GET	/todos	Listar todos los libros.
+
 GET	/{id}	Obtener libro por ID.
+
 POST	/	Insertar un nuevo libro.
+
 DELETE	/{id}	Eliminar libro por ID.
+
 
 🚀 Cómo ejecutar la aplicación
 Clona el repositorio:
